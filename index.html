@@ -116,7 +116,51 @@
         </section>
       </section>
       <section id="contact-us"><!-- Section 4: Contact Us -->
-        Section 4: Contact Us
+        <h2>Let's Get in Touch!</h2>
+        <form>
+          <input 
+            type="text" 
+            id="name" 
+            name="name"
+            aria-label="Name"
+            placeholder="Your Name"
+            required
+          >
+          <input 
+            type="email" 
+            id="email" 
+            name="email"
+            aria-label="Email"
+            placeholder="Email"
+            required
+          >
+          <input 
+            type="text" 
+            id="company-name" 
+            name="company-name"
+            aria-label="Company name"
+            placeholder="Company name"
+            required
+          >
+          <label for="choose-bot">Choose a bot</label>
+          <select id="choose-bot" name="choose-bot">
+            <option value="box-bots">Box Bots</option>
+            <option value="framebot">FrameBot</option>
+            <option value="analyst-tools">Analyst Tools</option>
+            <option value="not-sure">Not sure</option>
+          </select>
+          <label for="privacy-policy-box">
+            <input 
+              type="checkbox" 
+              id="privacy-policy-box"
+              name="privacy-policy-box"
+              aria-label="Privacy Policy Agreement"
+              required
+            >
+            By ticking this box, I agree that BotsEver may use my information in accordance with its <a href="#">Privacy Policy</a>.
+          </label>
+          <button type="submit">Submit</button>
+        </form>
       </section>
     </main>
     <footer>&copy; 2023 BotsEver</footer>
