@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  /* TODO: set line-height */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

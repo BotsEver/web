@@ -1,0 +1,5 @@
+.header__logo {
+  width: 250px;
+  height: 66px;
+  object-fit: contain;
+}

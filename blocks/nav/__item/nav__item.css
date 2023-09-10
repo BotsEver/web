@@ -1,0 +1,8 @@
+.nav__item {
+  color: rgb(23, 61, 66);
+}
+
+.nav__item:hover {
+  /* slightly different from the palette (118, 171, 178) */
+  color: rgb(92, 177, 188);
+}
