@@ -1,0 +1,5 @@
+.lead {
+  padding: 200px 0 0;
+  text-align: center;
+  min-height: 85vh; /* 704 + 116 (высота хедера) = 820px */
+}

@@ -2,7 +2,16 @@
 @import url(./vendor/fonts/fonts.css);
 
 @import url(./blocks/common/common.css);
+
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__logo/header__logo.css);
 @import url(./blocks/nav/__list/nav__list.css);
 @import url(./blocks/nav/__item/nav__item.css);
+
+@import url(./blocks/main__content/main__content.css);
+
+@import url(./blocks/lead/lead.css);
+@import url(./blocks/lead/__heading/lead__heading.css);
+@import url(./blocks/lead/__subheading/lead__subheading.css);
+
+@import url(./blocks/footer/footer.css);
