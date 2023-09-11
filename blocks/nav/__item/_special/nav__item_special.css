@@ -1,0 +1,13 @@
+.nav__item_special {
+  color: white;
+  padding: 3px 8px;
+  background: rgb(118, 171, 178);
+  border: 3px solid rgb(118, 171, 178);
+  border-radius: 20px;
+}
+
+.nav__item_special:hover {
+  background: rgb(23, 61, 66);
+  border: 3px solid rgb(23, 61, 66);
+  color: white;
+}

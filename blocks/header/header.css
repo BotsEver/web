@@ -7,6 +7,6 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  /* TODO: change background color */
-  background: rgb(247, 254, 255);
+  /* TODO: palette colors look good on white */
+  background: rgb(256, 256, 256);
 }
