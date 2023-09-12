@@ -17,4 +17,11 @@
 @import url(./blocks/lead/__buttons/lead__buttons.css);
 @import url(./blocks/lead/__button/lead__button.css);
 
+@import url(./blocks/team-partners/team-partners.css);
+@import url(./blocks/team/team.css);
+@import url(./blocks/img-list/img-list.css);
+@import url(./blocks/team/__img/team__img.css);
+@import url(./blocks/partners/partners.css);
+@import url(./blocks/partners/__img/partners__img.css);
+
 @import url(./blocks/footer/footer.css);

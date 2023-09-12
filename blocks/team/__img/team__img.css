@@ -1,0 +1,12 @@
+.team__img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.team__img:hover {
+  filter: none;
+}
