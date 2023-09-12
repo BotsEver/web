@@ -21,7 +21,7 @@
           <li class="nav__item"><a href="#partners">Partners</a></li>
           <li class="nav__item"><a href="#team">Team</a></li>
           <li class="nav__item"><a href="#contact-us">Contacts</a></li>
-          <li class="nav__item nav__item_special">
+          <li class="nav__item button"> <!-- TODO: добавить уникальный класс для кнопки (здесь и в форме)-->
             <a href="https://botsever.co/news" target="_blank">Demo</a>
           </li>
         </ul>
@@ -29,18 +29,25 @@
     </header>
     <main class="main__content">
       <section class="lead"><!-- Section 1: Intro -->
-        <h1 class="lead__heading">
-          We develop smart bots that dig deep
-          in big data sets and discover
-          something that is hidden inside
-        </h1>
-        <h2 class="lead__subheading">
-          Our bots can write news, do reports 
-          or other content. Fully automated.
-        </h2>
-        <div><!-- TODO: change button text + add links -->
-          <button>Button 1: Leads to Contacts</button>
-          <button>Button 2: Live Demo</button>
+        <div class="lead__text">
+          <h1 class="lead__heading">
+            We develop smart bots that dig deep
+            in big data sets and discover
+            something that is hidden inside
+          </h1>
+          <h2 class="lead__subheading">
+            Our bots can write news, do reports 
+            or other content. Fully automated.
+          </h2>
+        </div>
+        <div class="lead__buttons"><!-- TODO: текста должно быть меньше и кнопки симметричны -->
+          <!-- TODO: возможно оставить одну большую яркую кнопку contact us -->
+          <a href="#contact-us" class="button lead__button">
+            Contact us
+          </a>
+          <a href="https://botsever.co/news" class="button lead__button" target="_blank">
+            See our bots in action
+          </a>
         </div>
       </section>
       <section id="our-products"><!-- Section 2: Our Products -->
