@@ -17,11 +17,16 @@
 @import url(./blocks/lead/__buttons/lead__buttons.css);
 @import url(./blocks/lead/__button/lead__button.css);
 
+/* TODO: распределить селекторы по файлам */
+@import url(./blocks/our-products/our-products.css);
+
 @import url(./blocks/team-partners/team-partners.css);
-@import url(./blocks/team/team.css);
 @import url(./blocks/img-list/img-list.css);
 @import url(./blocks/team/__img/team__img.css);
 @import url(./blocks/partners/partners.css);
 @import url(./blocks/partners/__img/partners__img.css);
+
+/* TODO: распределить селекторы по файлам и удалить этот */
+@import url(./blocks/test.css);
 
 @import url(./blocks/footer/footer.css);

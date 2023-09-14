@@ -32,7 +32,7 @@
         <div class="lead__text">
           <h1 class="lead__heading">
             We develop smart bots that dig deep
-            in big data sets and discover
+            into big data sets and discover
             something that is hidden inside
           </h1>
           <h2 class="lead__subheading">
@@ -50,42 +50,43 @@
           </a>
         </div>
       </section>
-      <section id="our-products"><!-- Section 2: Our Products -->
-        <div>
-          <h2>Our products</h2>
-          <ul>
-            <li>
+      <section class="our-products" id="our-products"><!-- Section 2: Our Products -->
+          <h2 class="our-products__heading">Our products</h2>
+          <ul class="our-products__list">
+            <li class="our-products__item">
+              <h3>BoxBots</h3>
               <p>
-                <b>Box Bots</b> is a set of ready-to-use bots that write news based <br />
-                on big data (sports, stock market, cryptos, weather, entertainment, <br />
-                etc.). It takes less than 10 seconds to write news with BoxBots. <br />
-                Visit demo website to see bots in action.
+                A set of ready-to-use bots that write news
+                using big data. Sports, stock market, cryptos, entertainment, weather — you name it.
               </p>
+              <p>It takes less than 10 seconds to write news with BoxBots. 
+                Check out our <a class="our-products__link" href="#">demo</a> website to see they can do.
+              </p>  
             </li>
-            <li>
-              <p>
-                <b>FrameBot</b> is a framework based on BoxBots to develop custom <br />
-                bots that will use any big data to create content you need based on <br />
-                it (news, reports, etc.).
-              </p>
+            <li class="our-products__item">
+              <h3>FrameBot</h3>
+              <p>A framework based on BoxBots which creates custom bots tailored to your needs.</p>
+              <p>These bots will use big data to make news, reports, and so much more for you.</p>
             </li>
-            <li>
-              <p>
-                <b>Analyst Tools</b> is a toolkit for deep data analysis, <br />
-                self-trained bots that will go deep inside data sets to discover <br />
-                something hidden (trends, benefits, hazards, etc.) and create reports <br />
-                with the help of FrameBot. Automated solution for those who need to <br />
-                make right decisions based on big data.
-              </p>
+            <li class="our-products__item">
+              <!--TODO: уточнить смысл: with the help of Framebot – в чем помощь фреймбота? 
+                  фреймбот делает кастомных ботов для нужд юзера? и что значит "self-trained"?
+                  возможно OUR сюда не подходит
+              -->
+              <h3>Analytics Tools</h3>
+              <p>A toolkit for deep data analysis.</p>
+              <p>Our self-trained bots dive deep into data sets, analyze them 
+                for trends, advantages, risks, and other things hidden from a user's eye. They deliver reports 
+                with the help of FrameBot.</p>
+              <p>An automated solution for those who want to 
+                make right decisions based on big data.</p>
             </li>
           </ul>
-        </div>
         <!-- TODO: change button text + add links -->
-        <button>Button: Leads to Contacts</button>
       </section>
       <section class="team-partners" id="team-partners"><!-- Section 3: Team and Partners -->
         <section class="team">
-          <h3>Team</h3>
+          <h2>Team</h2>
           <ul class="img-list">
             <li>
               <img class="team__img" src="./assets/images/team/team-ceo.png" alt="CEO">
@@ -114,7 +115,7 @@
           </ul>
         </section>
         <section class="partners">
-          <h3>Partners</h3>
+          <h2>Partners</h2>
           <ul class="img-list">
             <li>
               <img class="partners__img" src="./assets/images/partners/partners-1.png" alt="Microsoft for Startups">
@@ -131,76 +132,80 @@
           </ul>
         </section>
       </section>
-      <section id="contact-us"><!-- Section 4: Contact Us -->
-        <h2>Let's Get in Touch!</h2>
-        <form>
-          <input 
-            type="text" 
-            id="name" 
-            name="name"
-            aria-label="Name"
-            placeholder="Your Name"
-            required
-          >
-          <input 
-            type="email" 
-            id="email" 
-            name="email"
-            aria-label="Email"
-            placeholder="Email"
-            required
-          >
-          <input 
-            type="text" 
-            id="company-name" 
-            name="company-name"
-            aria-label="Company name"
-            placeholder="Company name"
-            required
-          >
-          <label for="choose-bot">Choose a bot</label>
-          <select id="choose-bot" name="choose-bot">
-            <option value="box-bots">Box Bots</option>
-            <option value="framebot">FrameBot</option>
-            <option value="analyst-tools">Analyst Tools</option>
-            <option value="not-sure">Not sure</option>
-          </select>
-          <label for="privacy-policy-box">
+      <section class="contact-us" id="contact-us"><!-- Section 4: Contact Us -->
+        <div class="contact-left">
+          <h2>Let's stay in touch</h2>
+          <form>
             <input 
-              type="checkbox" 
-              id="privacy-policy-box"
-              name="privacy-policy-box"
-              aria-label="Privacy Policy Agreement"
+              type="text" 
+              id="name" 
+              name="name"
+              aria-label="Name"
+              placeholder="Your Name"
               required
             >
-            By ticking this box, I agree that BotsEver may use my information in accordance with its <a href="#">Privacy Policy</a>.
-          </label>
-          <button type="submit">Submit</button>
-        </form>
-        <div> <!-- social links + quote container -->
-          <p>If something can be automated, it should be automated. Just let us help you here.</p>
-          <nav>
-          <ul>
+            <input 
+              type="email" 
+              id="email" 
+              name="email"
+              aria-label="Email"
+              placeholder="Email"
+              required
+            >
+            <input 
+              type="text" 
+              id="company-name" 
+              name="company-name"
+              aria-label="Company name"
+              placeholder="Company name"
+              required
+            >
+            <select id="choose-bot" name="choose-bot">
+              <option value="" disabled selected>Choose a Boxbot</option>
+              <option value="box-bots">Footbot</option>
+              <option value="framebot">Stockbot</option>
+              <option value="analyst-tools">Cryptobot</option>
+              <option value="not-sure">Not sure</option>
+            </select>
+            <label for="privacy-policy-box">
+              <span class="checkbox-wrapper">
+                <input 
+                  type="checkbox" 
+                  id="privacy-policy-box"
+                  name="privacy-policy-box"
+                  aria-label="Privacy Policy Agreement"
+                  required
+                >
+              </span>
+              <span>By ticking this box, I agree that BotsEver may use my information in accordance with its <a href="#">Privacy Policy</a>.</span>
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="contact-right"> <!-- social links + quote container -->
+          <blockquote>If something can be automated, it should be. Just let us help you here.</blockquote>
+          <ul class="social-icons">
             <li>
               <a href="#">
-                <img src="#" alt="Email">
+                <img src="./assets/images/social/social-1.png" alt="Email">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="#" alt="Twitter">
+                <img src="./assets/images/social/social-2.png" alt="Twitter">
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="#" alt="LinkedIn">
+                <img src="./assets/images/social/social-3.png" alt="LinkedIn">
               </a>
             </li>
           </ul>
-          </nav>
         </div>
       </section>
     </main>
-    <footer class="footer">&copy; 2023 BotsEver</footer>
+    <footer class="footer">
+      <a href="#"><p>&copy; 2023. BotsEver</p></a>
+    </footer>
   </body>
 </html>

@@ -1,13 +1,12 @@
 .lead__button {
   width: 300px;
-  height: 45px;
-  line-height: 2rem; /*выравнивает текст по центру кнопки*/
   color: black; 
   /* TODO: 
     если кнопки две, то они должны быть более легкими с плавными переходами и тонкими линиями
     если одна – она должна быть яркой, не из палитры
   */
-  background: none; /* TODO: чтобы такого не было – убрать bg и outline в button, прописать свои цвета здесь*/
-  outline: solid 3px rgb(23, 61, 66);
+  background: none; /* TODO: чтобы такого не было – убрать bg и border в button, прописать свои цвета здесь*/
+  border: solid 3px rgb(23, 61, 66);
+  padding: 10px 20px;
   border-radius: 5px;
 }

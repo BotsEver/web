@@ -1,0 +1,39 @@
+/* TODO: перенести стили по отдельным файлам */
+
+.our-products {
+  padding-top: 17%;
+}
+
+.our-products__heading {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.our-products__list {
+  display: flex;
+  gap: 30px;
+  line-height: 1.5rem;
+}
+
+.our-products__item {
+  flex: 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 35px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  /* border: 2px solid rgb(118, 171, 178); */
+}
+
+.our-products__item:hover {
+  background: #e9e8e8;
+  /*  transform: scale(1.1); */
+}
+
+.our-products__link {
+  font-weight: 500;
+}
+
+
+.our-products__button {
+  text-align: center;
+}
