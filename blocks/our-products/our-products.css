@@ -7,6 +7,7 @@
 .our-products__heading {
   text-align: center;
   margin-bottom: 80px;
+  font-weight: 600;
 }
 
 .our-products__list {
@@ -30,9 +31,13 @@
 }
 
 .our-products__link {
-  font-weight: 500;
+  /* font-weight: 500; */
+  color: rgb(99, 144, 150);
 }
 
+.our-products__link:hover {
+  color: rgb(70, 107, 111);
+}
 
 .our-products__button {
   text-align: center;

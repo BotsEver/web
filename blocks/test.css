@@ -1,19 +1,23 @@
 /* TODO: распределить селекторы по файлам, а этот удалить */
 
-body {
-  background: #f7f7f7;
-    /*
-  background: radial-gradient(circle at left bottom, #fff, #decfe1, #eceaea, #a4d6dd);
-  background: radial-gradient(circle at left bottom, #fff, #a4d6dd, #bea2c2); 
+body, h2, ul {
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7; /* TODO: or #fff */
+  /*
+    background: radial-gradient(circle at left bottom, #fff, #decfe1, #eceaea, #a4d6dd);
+    background: radial-gradient(circle at left bottom, #fff, #a4d6dd, #bea2c2); 
   */
 }
 
 .contact-us {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15% 10% 10%;
-  gap: 5%;
+  padding: 15% 0 10%;
+}
+
+.contacts-container {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 15%;
 }
 
 .contact-left {
@@ -23,20 +27,25 @@ body {
 }
 
 .contact-left h2 {
-  font-size: 24px;
+  font-size: 1.7rem;
   margin-left: 10px;
   margin-bottom: 20px;
 }
 
 .contact-left form {
-  display: flex;
-  flex-direction: column;
+  background-color: inherit;
+  padding: 20px;
+
 }
 
-.contact-left input,
-.contact-left select,
-.contact-left label {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+label {
+  display: block;
   margin-bottom: 15px;
+  width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -44,18 +53,13 @@ body {
   background: inherit;
 }
 
-.contact-left select {
-  padding: 8px;
-}
-
 .contact-left input,
 .contact-left select:focus {
   outline-color: rgb(118, 171, 178);
 }
 
-.contact-left label {
+label {
   display: flex;
-  align-items: start;
   cursor: pointer;
   font-size: 14px;
   gap: 5px;
@@ -65,7 +69,24 @@ body {
   margin-top: 2px;
 }
 
+.checkbox-link {
+  color: rgb(99, 144, 150);
+}
+
+.checkbox-link:hover {
+  color: rgb(70, 107, 111);
+}
+
+.contact-left input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+.contact-left input[type="checkbox"]:checked {
+  background: rgb(118, 171, 178);
+}
+
 .contact-left button {
+  width: 100%;
   background: rgb(118, 171, 178);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: #fff;
@@ -77,38 +98,36 @@ body {
 }
 
 .contact-left button:hover {
-  background: rgb(23, 61, 66);
+  background: rgb(99, 144, 150);
+  /* background: rgb(23, 61, 66); –– TODO: темно-зеленый из палитры */
 }
 
-.contact-left input[type="checkbox"]:checked {
-  background-color: rgb(118, 171, 178);
-}
+/* TODO: чекбокс в цвет палитры */
 
 .contact-right {
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  margin-top: 150px;
+  align-content: space-between;
+  justify-content: space-between;
 }
 
 .contact-right blockquote {
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 23px;
+  text-align: right;
+  font-weight: 600;
+  margin-left: 0;
 }
 
 .social-icons {
   display: flex;
-  justify-content: space-around;
-}
-
-.social-icons li {
-  margin: 0 10px;
+  margin-left: 17%;
+  gap: 10%;
 }
 
 .social-icons img {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
+  background-color: white;
   transition: transform 0.2s ease-in-out;
 }
 

@@ -36,8 +36,7 @@
             something that is hidden inside
           </h1>
           <h2 class="lead__subheading">
-            Our bots can write news, do reports 
-            or other content. Fully automated.
+            Our bots help create news, analytics reports, or other content. Fully automated.
           </h2>
         </div>
         <div class="lead__buttons"><!-- TODO: текста должно быть меньше и кнопки симметричны -->
@@ -60,7 +59,7 @@
                 using big data. Sports, stock market, cryptos, entertainment, weather — you name it.
               </p>
               <p>It takes less than 10 seconds to write news with BoxBots. 
-                Check out our <a class="our-products__link" href="#">demo</a> website to see they can do.
+                Check out our <a class="our-products__link" href="#">demo website</a> to see they can do.
               </p>  
             </li>
             <li class="our-products__item">
@@ -82,9 +81,8 @@
                 make right decisions based on big data.</p>
             </li>
           </ul>
-        <!-- TODO: change button text + add links -->
       </section>
-      <section class="team-partners" id="team-partners"><!-- Section 3: Team and Partners -->
+      <section class="team-partners" id="team-partners">
         <section class="team">
           <h2>Team</h2>
           <ul class="img-list">
@@ -132,76 +130,79 @@
           </ul>
         </section>
       </section>
-      <section class="contact-us" id="contact-us"><!-- Section 4: Contact Us -->
-        <div class="contact-left">
-          <h2>Let's stay in touch</h2>
-          <form>
-            <input 
-              type="text" 
-              id="name" 
-              name="name"
-              aria-label="Name"
-              placeholder="Your Name"
-              required
-            >
-            <input 
-              type="email" 
-              id="email" 
-              name="email"
-              aria-label="Email"
-              placeholder="Email"
-              required
-            >
-            <input 
-              type="text" 
-              id="company-name" 
-              name="company-name"
-              aria-label="Company name"
-              placeholder="Company name"
-              required
-            >
-            <select id="choose-bot" name="choose-bot">
-              <option value="" disabled selected>Choose a Boxbot</option>
-              <option value="box-bots">Footbot</option>
-              <option value="framebot">Stockbot</option>
-              <option value="analyst-tools">Cryptobot</option>
-              <option value="not-sure">Not sure</option>
-            </select>
-            <label for="privacy-policy-box">
-              <span class="checkbox-wrapper">
-                <input 
-                  type="checkbox" 
-                  id="privacy-policy-box"
-                  name="privacy-policy-box"
-                  aria-label="Privacy Policy Agreement"
-                  required
-                >
-              </span>
-              <span>By ticking this box, I agree that BotsEver may use my information in accordance with its <a href="#">Privacy Policy</a>.</span>
-            </label>
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        <div class="contact-right"> <!-- social links + quote container -->
-          <blockquote>If something can be automated, it should be. Just let us help you here.</blockquote>
-          <ul class="social-icons">
-            <li>
-              <a href="#">
-                <img src="./assets/images/social/social-1.png" alt="Email">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./assets/images/social/social-2.png" alt="Twitter">
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./assets/images/social/social-3.png" alt="LinkedIn">
-              </a>
-            </li>
-          </ul>
-        </div>
+      <section class="contact-us" id="contact-us">
+        <div class="contacts-container">
+          <div class="contact-left">
+            <h2>Let's stay in touch</h2>
+            <form>
+              <input 
+                type="text" 
+                id="name" 
+                name="name"
+                aria-label="Name"
+                placeholder="Your Name"
+                required
+              >
+              <input 
+                type="email" 
+                id="email" 
+                name="email"
+                aria-label="Email"
+                placeholder="Email"
+                required
+              >
+              <input 
+                type="text" 
+                id="company-name" 
+                name="company-name"
+                aria-label="Company name"
+                placeholder="Company name"
+                required
+              >
+              <select id="choose-bot" name="choose-bot">
+                <option value="" disabled selected>Choose a Boxbot</option>
+                <option value="box-bots">Footbot</option>
+                <option value="framebot">Stockbot</option>
+                <option value="analyst-tools">Cryptobot</option>
+                <option value="not-sure">Not sure</option>
+              </select>
+              <label for="privacy-policy-box">
+                <span class="checkbox-wrapper">
+                  <input 
+                    type="checkbox" 
+                    id="privacy-policy-box"
+                    name="privacy-policy-box"
+                    aria-label="Privacy Policy Agreement"
+                    required
+                  >
+                </span>
+                <span>By ticking this box, I agree that BotsEver may use my information in accordance with its <a class="checkbox-link" href="#">Privacy Policy</a>.</span>
+              </label>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="contact-right">
+            <blockquote>If something can be automated, it should be.</blockquote>
+            <ul class="social-icons">
+              <li>
+                <!--TODO: уточнить email -->
+                <a href="mailto:hi@botsever.co" target="_blank">
+                  <img src="./assets/images/social/social-1.png" alt="Email">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/botsever" target="_blank">
+                  <img src="./assets/images/social/social-2.png" alt="Twitter">
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/company/botsever" target="_blank">
+                  <img src="./assets/images/social/social-3.png" alt="LinkedIn">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>  
       </section>
     </main>
     <footer class="footer">

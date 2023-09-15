@@ -6,7 +6,11 @@
     если одна – она должна быть яркой, не из палитры
   */
   background: none; /* TODO: чтобы такого не было – убрать bg и border в button, прописать свои цвета здесь*/
-  border: solid 3px rgb(23, 61, 66);
+  border: solid 2px rgb(23, 61, 66);
   padding: 10px 20px;
   border-radius: 5px;
+}
+
+.lead__button:hover {
+  border: solid 2px rgb(23, 61, 66);
 }

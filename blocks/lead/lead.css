@@ -1,5 +1,4 @@
 .lead {
   padding-top: 13%; /* TODO: подровнять после выбора f-weight и max-width для текста */
   text-align: center;
-  /* min-height: 85vh; 704 + 116 (высота хедера) = 820px */
 }
