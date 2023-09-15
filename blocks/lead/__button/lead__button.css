@@ -1,12 +1,7 @@
 .lead__button {
   width: 300px;
-  color: black; 
-  /* TODO: 
-    если кнопки две, то они должны быть более легкими с плавными переходами и тонкими линиями
-    если одна – она должна быть яркой, не из палитры
-  */
-  background: none; /* TODO: чтобы такого не было – убрать bg и border в button, прописать свои цвета здесь*/
-  border: solid 2px rgb(23, 61, 66);
+  background: rgb(99, 144, 150);
+  border: solid 2px rgb(99, 144, 150);
   padding: 10px 20px;
   border-radius: 5px;
 }

@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="header">
-      <a href="https://botsever.co/"> <!-- TODO: should match the main page address -->
+      <a href="https://botsever.co/" target="_blank"> <!-- TODO: should match the main page address. remove `target` before deployment -->
         <img 
         class="header__logo" 
         alt="BotsEver logo"
@@ -41,7 +41,6 @@
           </h2>
         </div>
         <div class="lead__buttons"><!-- TODO: текста должно быть меньше и кнопки симметричны -->
-          <!-- TODO: возможно оставить одну большую яркую кнопку contact us -->
           <a href="#contact-us" class="button lead__button">
             Contact us
           </a>
@@ -60,7 +59,7 @@
                 using big data. Sports, stock market, cryptos, entertainment, weather — you name it.
               </p>
               <p>It takes less than 10 seconds to write news with BoxBots. 
-                Check out our <a class="our-products__link" href="#">demo website</a> to see what they can do.
+                Check out our <a class="our-products__link" href="https://botsever.co/news" target="_blank">demo website</a> to see what they can do.
               </p>  
             </li>
             <li class="our-products__item">
@@ -72,14 +71,15 @@
               <!--TODO: уточнить смысл: with the help of Framebot – в чем помощь фреймбота? 
                   фреймбот делает кастомных ботов для нужд юзера? и что значит "self-trained"?
                   возможно OUR сюда не подходит
+                  "Custom bots created with the help of FrameBot dive..." ?
               -->
               <h3>Analytics Tools</h3>
               <p>A toolkit for deep data analysis.</p>
               <p>Our self-trained bots dive deep into data sets, analyze them 
                 for trends, advantages, risks, and other things hidden from a user's eye. They deliver reports 
                 with the help of FrameBot.</p>
-              <p>An automated solution for those who want to 
-                make right decisions based on big data.</p>
+                <!--TODO: "An automated solution for making right decisions based on big data." ? -->
+              <p>An automated solution for making right decisions based on big data.</p>
             </li>
           </ul>
       </section>
@@ -161,10 +161,11 @@
                 required
               >
               <select id="choose-bot" name="choose-bot">
-                <option value="" disabled selected>Choose a Boxbot</option>
-                <option value="box-bots">Footbot</option>
-                <option value="framebot">Stockbot</option>
-                <option value="analyst-tools">Cryptobot</option>
+                <option value="" disabled selected>Choose a BoxBot</option>
+                <option value="FootBot">FootBot</option>
+                <option value="StockBot">StockBot</option>
+                <option value="CryptoBot">CryptoBot</option>
+                <option value="Custom">Custom</option>
                 <option value="not-sure">Not sure</option>
               </select>
               <label for="privacy-policy-box">

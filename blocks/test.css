@@ -28,8 +28,8 @@ body, h2, ul {
 
 .contact-left h2 {
   font-size: 1.7rem;
-  margin-left: 10px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .contact-left form {
