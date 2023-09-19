@@ -18,8 +18,11 @@
 @import url(./blocks/lead/__buttons/lead__buttons.css);
 @import url(./blocks/lead/__button/lead__button.css);
 
-/* TODO: распределить селекторы по файлам */
 @import url(./blocks/our-products/our-products.css);
+@import url(./blocks/our-products/__heading/our-products__heading.css);
+@import url(./blocks/our-products/__list/our-products__list.css);
+@import url(./blocks/our-products/__item/our-products__item.css);
+@import url(./blocks/our-products/__link/our-products__link.css);
 
 @import url(./blocks/team-partners/team-partners.css);
 @import url(./blocks/team/team.css);
@@ -28,7 +31,23 @@
 @import url(./blocks/partners/partners.css);
 @import url(./blocks/partners/__img/partners__img.css);
 
-/* TODO: распределить селекторы по файлам и удалить этот */
-@import url(./blocks/test.css);
+@import url(./blocks/contacts/contacts.css);
+@import url(./blocks/contacts/__wrapper/contacts__wrapper.css);
+@import url(./blocks/contacts/__form-wrapper/contacts__form-wrapper.css);
+@import url(./blocks/contacts/__heading/contacts__heading.css);
+@import url(./blocks/contacts/__form/contacts__form.css);
+@import url(./blocks/contacts/__input/contacts__input.css);
+@import url(./blocks/contacts/__select/contacts__select.css);
+@import url(./blocks/contacts/__label/contacts__label.css);
+@import url(./blocks/contacts/__checkbox/contacts__checkbox.css);
+@import url(./blocks/contacts/__button/contacts__button.css);
+@import url(./blocks/contacts/__text-wrapper/contacts__text-wrapper.css);
+@import url(./blocks/contacts/__quote/contacts__quote.css);
+@import url(./blocks/contacts/__social/contacts__social.css);
+@import url(./blocks/contacts/__social-img/contacts__social-img.css);
+@import url(./blocks/contacts/__social-link/contacts__social-link.css);
+
+@import url(./blocks/checkbox-wrapper/checkbox-wrapper.css);
+@import url(./blocks/checkbox-link/checkbox-link.css);
 
 @import url(./blocks/footer/footer.css);

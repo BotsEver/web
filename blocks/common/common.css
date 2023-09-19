@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  outline-color: rgb(23, 61, 66);
 }
 
 html,
@@ -7,11 +8,27 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-size: 18px;
+  margin: 0;
+  padding: 0;
   scroll-behavior: smooth;
   /* TODO: set line-height */
 }
 
-ul {
+body {
+  background: #f7f7f7; /* TODO: or #fff */
+  /*
+    background: radial-gradient(circle at left bottom, #fff, #decfe1, #eceaea, #a4d6dd);
+    background: radial-gradient(circle at left bottom, #fff, #a4d6dd, #bea2c2); 
+  */
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
   list-style: none;
   padding: 0;
   margin: 0;

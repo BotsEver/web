@@ -1,0 +1,13 @@
+.our-products__item {
+  flex: 1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 35px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  /* border: 2px solid rgb(118, 171, 178); */
+}
+
+.our-products__item:hover {
+  background: #e9e8e8;
+  /*  transform: scale(1.1); */
+}

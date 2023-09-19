@@ -1,0 +1,7 @@
+.our-products__link {
+  color: rgb(99, 144, 150);
+}
+
+.our-products__link:hover {
+  color: rgb(70, 107, 111);
+}
