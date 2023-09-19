@@ -1,0 +1,5 @@
+.contacts__social {
+  display: flex;
+  margin-left: 17%;
+  gap: 10%;
+}

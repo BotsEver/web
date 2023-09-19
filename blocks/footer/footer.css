@@ -1,0 +1,10 @@
+.footer {
+  font-size: 0.8rem;
+  background: #fff;
+}
+
+/* TODO: заменить <p> на классовый селектор */
+.footer p {
+  padding: 30px 10%;
+  margin: 0;
+}

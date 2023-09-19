@@ -1,0 +1,5 @@
+/* TODO: сделать checked-чекбокс в цвет палитры */
+.contacts__checkbox {
+  outline-color: rgb(118, 171, 178);
+  cursor: pointer;
+}

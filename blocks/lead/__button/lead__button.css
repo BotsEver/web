@@ -1,0 +1,11 @@
+.lead__button {
+  width: 300px;
+  background: rgb(99, 144, 150);
+  border: solid 2px rgb(99, 144, 150);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.lead__button:hover {
+  border: solid 2px rgb(23, 61, 66);
+}

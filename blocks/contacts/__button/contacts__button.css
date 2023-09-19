@@ -1,0 +1,15 @@
+.contacts__button {
+  font-size: 0.89rem;
+  width: 100%;
+  padding: 10px 20px;
+  background: rgb(118, 171, 178);
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none; /* TODO: привести в порядок общие стили кнопки */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contacts__button:hover {
+  background: rgb(99, 144, 150);
+}

@@ -1,0 +1,53 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+
+@import url(./blocks/common/common.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/nav/__list/nav__list.css);
+@import url(./blocks/nav/__item/nav__item.css);
+
+@import url(./blocks/button/button.css);
+
+@import url(./blocks/main__content/main__content.css);
+
+@import url(./blocks/lead/lead.css);
+@import url(./blocks/lead/__text/lead__text.css);
+@import url(./blocks/lead/__subheading/lead__subheading.css);
+@import url(./blocks/lead/__buttons/lead__buttons.css);
+@import url(./blocks/lead/__button/lead__button.css);
+
+@import url(./blocks/our-products/our-products.css);
+@import url(./blocks/our-products/__heading/our-products__heading.css);
+@import url(./blocks/our-products/__list/our-products__list.css);
+@import url(./blocks/our-products/__item/our-products__item.css);
+@import url(./blocks/our-products/__link/our-products__link.css);
+
+@import url(./blocks/team-partners/team-partners.css);
+@import url(./blocks/team/team.css);
+@import url(./blocks/img-list/img-list.css);
+@import url(./blocks/team/__img/team__img.css);
+@import url(./blocks/partners/partners.css);
+@import url(./blocks/partners/__img/partners__img.css);
+
+@import url(./blocks/contacts/contacts.css);
+@import url(./blocks/contacts/__wrapper/contacts__wrapper.css);
+@import url(./blocks/contacts/__form-wrapper/contacts__form-wrapper.css);
+@import url(./blocks/contacts/__heading/contacts__heading.css);
+@import url(./blocks/contacts/__form/contacts__form.css);
+@import url(./blocks/contacts/__input/contacts__input.css);
+@import url(./blocks/contacts/__select/contacts__select.css);
+@import url(./blocks/contacts/__label/contacts__label.css);
+@import url(./blocks/contacts/__checkbox/contacts__checkbox.css);
+@import url(./blocks/contacts/__button/contacts__button.css);
+@import url(./blocks/contacts/__text-wrapper/contacts__text-wrapper.css);
+@import url(./blocks/contacts/__quote/contacts__quote.css);
+@import url(./blocks/contacts/__social/contacts__social.css);
+@import url(./blocks/contacts/__social-img/contacts__social-img.css);
+@import url(./blocks/contacts/__social-link/contacts__social-link.css);
+
+@import url(./blocks/checkbox-wrapper/checkbox-wrapper.css);
+@import url(./blocks/checkbox-link/checkbox-link.css);
+
+@import url(./blocks/footer/footer.css);

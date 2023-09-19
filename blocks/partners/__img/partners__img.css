@@ -1,0 +1,11 @@
+.partners__img {
+  object-fit: contain;
+  width: 230px;
+  height: 130px;
+  transition: transform 0.3s ease-in-out;
+  /* transition: 0.5s; */
+}
+
+.partners__img:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,12 @@
+.contacts__label {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background: inherit;
+  cursor: pointer;
+}

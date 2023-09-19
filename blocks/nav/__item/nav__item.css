@@ -1,0 +1,11 @@
+.nav__item {
+  color: rgb(23, 61, 66);
+}
+
+.nav__item:hover {
+  color: rgb(99, 144, 150);
+  /* TODO: на выбор
+    color: rgb(70, 107, 111);   –– темнее
+    color: rgb(118, 171, 178);  –– из палитры
+  */
+}

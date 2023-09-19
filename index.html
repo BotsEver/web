@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BotsEver</title>
+    <link rel="icon" href="./favicon-32x32.png" type="image/png">
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="https://botsever.co/" target="_blank"> <!-- TODO: should match the main page address. remove `target` before deployment -->
+        <img 
+        class="header__logo" 
+        alt="BotsEver logo"
+        src="./assets/images/logo-horizontal.png"
+        />
+      </a>
+      <nav class="nav"> <!-- TODO: switch to burger menu for mobile/tablet --> 
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#our-products">Solution</a></li>
+          <li class="nav__item"><a href="#team-partners">Team</a></li>
+          <li class="nav__item"><a href="#team-partners">Partners</a></li>
+          <li class="nav__item"><a href="#contacts">Contacts</a></li>
+          <li class="nav__item button"> <!-- TODO: добавить уникальный класс для кнопки (здесь и в форме)-->
+            <a href="https://botsever.co/news" target="_blank">Demo</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main__content">
+      <section class="lead"><!-- Section 1: Intro -->
+        <div class="lead__text">
+          <h1 class="lead__heading">
+            We develop smart bots that dig deep
+            into big data sets and discover
+            something that is hidden inside
+          </h1>
+          <h2 class="lead__subheading">
+            Our bots help create news, analytics reports, or other content. Fully automated.
+          </h2>
+        </div>
+        <div class="lead__buttons"><!-- TODO: текста должно быть меньше и кнопки симметричны -->
+          <a href="#contact-us" class="button lead__button">
+            Contact us
+          </a>
+          <a href="https://botsever.co/news" class="button lead__button" target="_blank">
+            See our bots in action
+          </a>
+        </div>
+      </section>
+      <section class="our-products" id="our-products"><!-- Section 2: Our Products -->
+          <h2 class="our-products__heading">Our products</h2>
+          <ul class="our-products__list">
+            <li class="our-products__item">
+              <h3>BoxBots</h3>
+              <p>
+                A set of ready-to-use bots that write news
+                using big data. Sports, stock market, cryptos, entertainment, weather — you name it.
+              </p>
+              <p>It takes less than 10 seconds to write news with BoxBots. 
+                Check out our <a class="our-products__link" href="https://botsever.co/news" target="_blank">demo website</a> to see what they can do.
+              </p>  
+            </li>
+            <li class="our-products__item">
+              <h3>FrameBot</h3>
+              <p>A framework based on BoxBots which creates custom bots tailored to your needs.</p>
+              <p>These bots will use big data to make news, reports, and so much more for you.</p>
+            </li>
+            <li class="our-products__item">
+              <!--TODO: уточнить смысл: with the help of Framebot – в чем помощь фреймбота? 
+                  фреймбот делает кастомных ботов для нужд юзера? и что значит "self-trained"?
+                  возможно OUR сюда не подходит
+                  "Custom bots created with the help of FrameBot dive..." ?
+              -->
+              <h3>Analytics Tools</h3> <!-- TODO: add 'coming soon' label -->
+              <p>A toolkit for deep data analysis.</p>
+              <p>Our self-trained bots dive deep into data sets, analyze them 
+                for trends, advantages, risks, and other things hidden from the human eye. They deliver reports 
+                with the help of FrameBot.</p>
+                <!--TODO: "An automated solution for making right decisions based on big data." ? -->
+              <p>An automated solution for making right decisions based on big data.</p>
+            </li>
+          </ul>
+      </section>
+      <section class="team-partners" id="team-partners">
+        <section class="team">
+          <h2>Team</h2>
+          <ul class="img-list">
+            <li>
+              <img class="team__img" src="./assets/images/team/team-ceo.png" alt="CEO">
+              <p>CEO</p>
+            </li>
+            <li>
+              <img class="team__img" src="./assets/images/team/team-cto.jpg" alt="CTO">
+              <p>CTO</p>
+            </li>
+            <li>
+              <img class="team__img" src="./assets/images/team/team-coo.png" alt="COO">
+              <p>COO</p>
+            </li>
+            <li>
+              <img class="team__img" src="./assets/images/team/team-cat1.jpg" alt="Vasya">
+              <p>Vasya</p>
+            </li>
+            <li>
+              <img class="team__img" src="./assets/images/team/team-cat2.jpg" alt="Pushok">
+              <p>Pushok</p>
+            </li>
+            <li>
+              <img class="team__img" src="./assets/images/team/team-cat3.png" alt="Pirozhok">
+              <p>Pirozhok</p>
+            </li>
+          </ul>
+        </section>
+        <section class="partners">
+          <h2>Partners</h2>
+          <ul class="img-list">
+            <li>
+              <img class="partners__img" src="./assets/images/partners/partners-1.png" alt="Microsoft for Startups">
+            </li>
+            <li>
+              <img class="partners__img" src="./assets/images/partners/partners-2.png" alt="Startup Lisboa">
+            </li>
+            <li>
+              <img class="partners__img" src="./assets/images/partners/partners-3.jpeg" alt="Build Up Labs Startup Studio">
+            </li>
+            <li>
+              <img class="partners__img" src="./assets/images/partners/partners-4.png" alt="VU Tech Hub">
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="contacts__wrapper">
+          <div class="contacts__form-wrapper">
+            <h2 class="contacts__heading">Let's stay in touch</h2>
+            <form class="contacts__form">
+              <input class="contacts__input"
+                type="text" 
+                id="name" 
+                name="name"
+                aria-label="Name"
+                placeholder="Your Name"
+                required
+              >
+              <input class="contacts__input"
+                type="email" 
+                id="email" 
+                name="email"
+                aria-label="Email"
+                placeholder="Email"
+                required
+              >
+              <input class="contacts__input"
+                type="text" 
+                id="company-name" 
+                name="company-name"
+                aria-label="Company name"
+                placeholder="Company name"
+                required
+              >
+              <!--TODO: сделать выбор темы/сферы вместо бота-->
+              <select class="contacts__select" id="choose-bot" name="choose-bot">
+                <option value="" disabled selected>Choose a BoxBot</option>
+                <option value="FootBot">FootBot</option>
+                <option value="StockBot">StockBot</option>
+                <option value="CryptoBot">CryptoBot</option>
+                <option value="Custom">Custom</option>
+                <option value="not-sure">Not sure</option>
+              </select>
+              <label class="contacts__label" for="privacy-policy-box">
+                <span class="checkbox-wrapper">
+                  <input class="contacts__checkbox"
+                    type="checkbox" 
+                    id="privacy-policy-box"
+                    name="privacy-policy-box"
+                    aria-label="Privacy Policy Agreement"
+                    required
+                  >
+                </span>
+                <span>By ticking this box, I agree that BotsEver may use my information in accordance with its <a class="checkbox-link" href="https://newslettrs.media/privacy-policy/" target="_blank">Privacy Policy</a>.</span>
+              </label>
+              <button class="contacts__button" type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="contacts__text-wrapper">
+            <blockquote class="contacts__quote">If something can be automated, it should be.</blockquote>
+            <ul class="contacts__social">
+              <li>
+                <!--TODO: уточнить email -->
+                <a class="contacts__social-link" href="mailto:hi@botsever.co" target="_blank">
+                  <img class="contacts__social-img" src="./assets/images/social/social-1.png" alt="Email">
+                </a>
+              </li>
+              <li>
+                <a class="contacts__social-link" href="https://twitter.com/botsever" target="_blank">
+                  <img class="contacts__social-img" src="./assets/images/social/social-2.png" alt="Twitter">
+                </a>
+              </li>
+              <li>
+                <a class="contacts__social-link" href="https://linkedin.com/company/botsever" target="_blank">
+                  <img class="contacts__social-img" src="./assets/images/social/social-3.png" alt="LinkedIn">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>  
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="#"><p>&copy; 2023. BotsEver</p></a>
+    </footer>
+  </body>
+</html>

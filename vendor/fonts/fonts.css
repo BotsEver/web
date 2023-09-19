@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Light.woff2") format("woff2"),
+    url("./Poppins-Light.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Regular.woff2") format("woff2"),
+    url("./Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+/* 
+TODO: choose which of these is a better fit for headings
+*/
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-Medium.woff2") format("woff2"),
+    url("./Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./Poppins-SemiBold.woff2") format("woff2"),
+    url("./Poppins-SemiBold.woff") format("woff");
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.button {
+  color: white;
+  padding: 3px 8px;
+  /* TODO: здесь не должно быть цветов и измерений w/h.
+    прописать в отдельный файл для кнопки демо-лид-сабмит, если будут отличия */ 
+  background: rgb(118, 171, 178);
+  border: solid 3px rgb(118, 171, 178);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+  /* TODO: здесь не должно быть цветов и измерений w/h. 
+  прописать в отдельный файл для кнопки демо-лид-сабмит, если будут отличия
+  */ 
+.button:hover {
+  background: rgb(23, 61, 66);
+  border: solid 3px rgb(23, 61, 66);
+  color: white;
+}

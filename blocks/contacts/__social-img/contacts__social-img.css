@@ -1,0 +1,10 @@
+.contacts__social-img {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contacts__social-img:hover {
+  transform: scale(1.1);
+}
