@@ -1,4 +1,10 @@
 .lead {
-  padding-top: 13%; /* TODO: подровнять после выбора f-weight и max-width для текста */
+  padding: 11% 0 10%;
   text-align: center;
+  /* TODO: 
+  background: rgb(23, 61, 66);  -- темно-зеленый
+  color: #f4f4f4;
+
+    + изменить bg и border кнопок
+  */
 }

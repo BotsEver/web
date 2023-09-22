@@ -1,3 +1,6 @@
 .our-products {
-  padding-top: 17%;
+  max-width: 80%; /* TODO: попробовать 85%, 90% */
+  margin: 0 auto;
+  padding: 12% 0 5%; /* TODO: если фон будет, то bottom 10%? */
+  /* TODO: background? */
 }

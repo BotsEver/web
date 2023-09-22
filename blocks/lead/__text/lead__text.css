@@ -1,4 +1,4 @@
 .lead__text {
-  max-width: 60%; /* TODO: либо 60%, либо 100% / no mw. оценить после подгонки шрифта */
+  max-width: 50%;
   margin: 0 auto;
 }

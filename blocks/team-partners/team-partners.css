@@ -1,5 +1,6 @@
 .team-partners {
-  /* min-height: 85vh; */
+  max-width: 80%; /* TODO: попробовать 85% */
+  margin: 0 auto;
+  padding: 10% 0 5%;
   text-align: center;
-  padding-top: 15%;
 }
