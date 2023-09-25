@@ -162,13 +162,12 @@
                 required
               >
               <!--TODO: сделать выбор темы/сферы вместо бота-->
-              <select class="contacts__select" id="choose-bot" name="choose-bot">
-                <option value="" disabled selected>Choose a BoxBot</option>
-                <option value="FootBot">FootBot</option>
-                <option value="StockBot">StockBot</option>
-                <option value="CryptoBot">CryptoBot</option>
+              <select class="contacts__select" id="choose-topic" name="choose-topic" required>
+                <option value="" disabled selected>Choose a topic</option>
+                <option value="Football">Football</option>
+                <option value="Stocks">Stocks</option>
+                <option value="Crypto">Crypto</option>
                 <option value="Custom">Custom</option>
-                <option value="not-sure">Not sure</option>
               </select>
               <label class="contacts__label" for="privacy-policy-box">
                 <span class="checkbox-wrapper">
