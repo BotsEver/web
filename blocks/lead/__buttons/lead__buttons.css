@@ -1,5 +1,6 @@
 /* TODO: доработать */
 .lead__buttons {
+  margin: 0 auto;
   padding-top: 80px;
   display: flex;
   justify-content: center;

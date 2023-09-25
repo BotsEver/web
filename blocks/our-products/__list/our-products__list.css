@@ -1,5 +1,5 @@
 .our-products__list {
   display: flex;
-  gap: 30px;
+  gap: 30px; /* TODO: изменить на % */
   line-height: 1.5rem;
 }

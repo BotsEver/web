@@ -1,3 +1,6 @@
 .contacts {
-  padding: 15% 0 10%;
+  max-width: 80%; /* TODO: попробовать 85% */
+  margin: 0 auto;
+  padding: 14% 0 5%;
+  /* TODO: background? */
 }
