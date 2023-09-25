@@ -19,6 +19,7 @@
 @import url(./blocks/lead/__button/lead__button.css);
 
 @import url(./blocks/our-products/our-products.css);
+@import url(./blocks/coming-soon/coming-soon.css);
 @import url(./blocks/our-products/__heading/our-products__heading.css);
 @import url(./blocks/our-products/__list/our-products__list.css);
 @import url(./blocks/our-products/__item/our-products__item.css);

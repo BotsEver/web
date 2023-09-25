@@ -1,0 +1,12 @@
+.coming-soon {
+  position: absolute;
+  top: 42px;
+  left: 64%;
+  font-size: 0.66rem;
+  line-height: 1.15;
+  padding: 5px;
+  height: 26px;
+  color: rgb(99, 144, 150);
+  border: 1px solid rgb(99, 144, 150);
+  border-radius: 3px;
+}

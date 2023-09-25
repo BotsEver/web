@@ -7,6 +7,5 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  /* TODO: palette colors look good on white. change later */
   background: inherit;
 }
